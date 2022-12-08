@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22A2F2F28D9DF38000385FA /* MusicAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2B28D9DF38000385FA /* MusicAttributes.swift */; };
+		C22A2F3028D9DF38000385FA /* MusicAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2B28D9DF38000385FA /* MusicAttributes.swift */; };
+		C22A2F3128D9DF38000385FA /* MusicViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2C28D9DF38000385FA /* MusicViews.swift */; };
+		C22A2F3228D9DF38000385FA /* MusicViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2C28D9DF38000385FA /* MusicViews.swift */; };
+		C22A2F3328D9DF38000385FA /* MusicWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2D28D9DF38000385FA /* MusicWidget.swift */; };
+		C22A2F3428D9DF38000385FA /* MusicWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2D28D9DF38000385FA /* MusicWidget.swift */; };
+		C22A2F3528D9DF38000385FA /* MusicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2E28D9DF38000385FA /* MusicDetail.swift */; };
+		C22A2F3628D9DF38000385FA /* MusicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A2F2E28D9DF38000385FA /* MusicDetail.swift */; };
+		C22A2F3728D9E0B5000385FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB4D2728D28808009D46AB /* Assets.xcassets */; };
+		C2870BDB28D33A22009C337C /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BDA28D33A22009C337C /* Island.swift */; };
+		C2870BDF28D340E6009C337C /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = C2870BDE28D340E6009C337C /* Inject */; };
+		C2870BE428D343F6009C337C /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = C2870BE328D343F6009C337C /* Inject */; };
+		C2870BF428D345CD009C337C /* PhoneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BF328D345CD009C337C /* PhoneDetail.swift */; };
+		C2870BF628D34638009C337C /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BDA28D33A22009C337C /* Island.swift */; };
+		C2870BFB28D34C23009C337C /* AreasDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BFA28D34C23009C337C /* AreasDetail.swift */; };
+		C2870BFE28D34C8C009C337C /* AreasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BFD28D34C8C009C337C /* AreasViews.swift */; };
+		C2870BFF28D34C8C009C337C /* AreasViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BFD28D34C8C009C337C /* AreasViews.swift */; };
+		C2870C0128D34D2F009C337C /* PhoneViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870C0028D34D2F009C337C /* PhoneViews.swift */; };
+		C2870C0228D34D2F009C337C /* PhoneViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870C0028D34D2F009C337C /* PhoneViews.swift */; };
+		C2870C0428D34D79009C337C /* AreasAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870C0328D34D79009C337C /* AreasAttributes.swift */; };
+		C2870C0528D34D79009C337C /* AreasAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870C0328D34D79009C337C /* AreasAttributes.swift */; };
+		C2870C0728D34D86009C337C /* PhoneAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870C0628D34D86009C337C /* PhoneAttributes.swift */; };
+		C2870C0828D34D86009C337C /* PhoneAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870C0628D34D86009C337C /* PhoneAttributes.swift */; };
+		C2AD4F5528DC508700B00AB3 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4F5428DC508700B00AB3 /* LiveActivityManager.swift */; };
+		C2CB4D2428D28807009D46AB /* Dynamic_IslandsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB4D2328D28807009D46AB /* Dynamic_IslandsApp.swift */; };
+		C2CB4D2628D28807009D46AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB4D2528D28807009D46AB /* ContentView.swift */; };
+		C2CB4D2828D28808009D46AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB4D2728D28808009D46AB /* Assets.xcassets */; };
+		C2CB4D2B28D28808009D46AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB4D2A28D28808009D46AB /* Preview Assets.xcassets */; };
+		C2CB4D3B28D28BA0009D46AB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CB4D3A28D28BA0009D46AB /* WidgetKit.framework */; };
+		C2CB4D3D28D28BA0009D46AB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CB4D3C28D28BA0009D46AB /* SwiftUI.framework */; };
+		C2CB4D4028D28BA0009D46AB /* Dynamic_Islands_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB4D3F28D28BA0009D46AB /* Dynamic_Islands_Widget.swift */; };
+		C2CB4D4328D28BA1009D46AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB4D4228D28BA1009D46AB /* Assets.xcassets */; };
+		C2CB4D4528D28BA1009D46AB /* Dynamic_Islands_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C2CB4D4128D28BA0009D46AB /* Dynamic_Islands_Widget.intentdefinition */; };
+		C2CB4D4628D28BA1009D46AB /* Dynamic_Islands_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C2CB4D4128D28BA0009D46AB /* Dynamic_Islands_Widget.intentdefinition */; };
+		C2CB4D4928D28BA1009D46AB /* Dynamic Islands WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C2CB4D3828D28BA0009D46AB /* Dynamic Islands WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2D1252D28D752F100DEBF6B /* AreasWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1252C28D752F100DEBF6B /* AreasWidget.swift */; };
+		C2D1252E28D752F100DEBF6B /* AreasWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1252C28D752F100DEBF6B /* AreasWidget.swift */; };
+		C2D1253028D7533400DEBF6B /* PhoneWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1252F28D7533400DEBF6B /* PhoneWidget.swift */; };
+		C2D1253128D7533400DEBF6B /* PhoneWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1252F28D7533400DEBF6B /* PhoneWidget.swift */; };
+		C2D1253228D758E200DEBF6B /* PhoneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BF328D345CD009C337C /* PhoneDetail.swift */; };
+		C2D1253328D758E700DEBF6B /* AreasDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2870BFA28D34C23009C337C /* AreasDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2CB4D4728D28BA1009D46AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2CB4D1828D28807009D46AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2CB4D3728D28BA0009D46AB;
+			remoteInfo = "Dynamic Islands WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2CB4D4D28D28BA1009D46AB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2CB4D4928D28BA1009D46AB /* Dynamic Islands WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C22A2F2B28D9DF38000385FA /* MusicAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicAttributes.swift; sourceTree = "<group>"; };
+		C22A2F2C28D9DF38000385FA /* MusicViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViews.swift; sourceTree = "<group>"; };
+		C22A2F2D28D9DF38000385FA /* MusicWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicWidget.swift; sourceTree = "<group>"; };
+		C22A2F2E28D9DF38000385FA /* MusicDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetail.swift; sourceTree = "<group>"; };
+		C2870BDA28D33A22009C337C /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		C2870BF328D345CD009C337C /* PhoneDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDetail.swift; sourceTree = "<group>"; };
+		C2870BFA28D34C23009C337C /* AreasDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasDetail.swift; sourceTree = "<group>"; };
+		C2870BFD28D34C8C009C337C /* AreasViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasViews.swift; sourceTree = "<group>"; };
+		C2870C0028D34D2F009C337C /* PhoneViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViews.swift; sourceTree = "<group>"; };
+		C2870C0328D34D79009C337C /* AreasAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasAttributes.swift; sourceTree = "<group>"; };
+		C2870C0628D34D86009C337C /* PhoneAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAttributes.swift; sourceTree = "<group>"; };
+		C2AD4F5428DC508700B00AB3 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		C2CB4D2028D28807009D46AB /* Dynamic Islands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Islands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CB4D2328D28807009D46AB /* Dynamic_IslandsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_IslandsApp.swift; sourceTree = "<group>"; };
+		C2CB4D2528D28807009D46AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2CB4D2728D28808009D46AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2CB4D2A28D28808009D46AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2CB4D3328D289E7009D46AB /* Dynamic-Islands-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dynamic-Islands-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C2CB4D3828D28BA0009D46AB /* Dynamic Islands WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dynamic Islands WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CB4D3A28D28BA0009D46AB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C2CB4D3C28D28BA0009D46AB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C2CB4D3F28D28BA0009D46AB /* Dynamic_Islands_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_Islands_Widget.swift; sourceTree = "<group>"; };
+		C2CB4D4128D28BA0009D46AB /* Dynamic_Islands_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Dynamic_Islands_Widget.intentdefinition; sourceTree = "<group>"; };
+		C2CB4D4228D28BA1009D46AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2CB4D4428D28BA1009D46AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D1252C28D752F100DEBF6B /* AreasWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasWidget.swift; sourceTree = "<group>"; };
+		C2D1252F28D7533400DEBF6B /* PhoneWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneWidget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2CB4D1D28D28807009D46AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2870BDF28D340E6009C337C /* Inject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CB4D3528D28BA0009D46AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CB4D3D28D28BA0009D46AB /* SwiftUI.framework in Frameworks */,
+				C2CB4D3B28D28BA0009D46AB /* WidgetKit.framework in Frameworks */,
+				C2870BE428D343F6009C337C /* Inject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22A2F2A28D9DF38000385FA /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				C22A2F2B28D9DF38000385FA /* MusicAttributes.swift */,
+				C22A2F2C28D9DF38000385FA /* MusicViews.swift */,
+				C22A2F2D28D9DF38000385FA /* MusicWidget.swift */,
+				C22A2F2E28D9DF38000385FA /* MusicDetail.swift */,
+			);
+			name = Music;
+			path = "Dynamic Islands/Islands/Music";
+			sourceTree = SOURCE_ROOT;
+		};
+		C2870BE528D344A9009C337C /* Islands */ = {
+			isa = PBXGroup;
+			children = (
+				C2870BE628D344AF009C337C /* Phone */,
+				C2870BF928D34C19009C337C /* Areas */,
+				C22A2F2A28D9DF38000385FA /* Music */,
+			);
+			path = Islands;
+			sourceTree = "<group>";
+		};
+		C2870BE628D344AF009C337C /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				C2870BF328D345CD009C337C /* PhoneDetail.swift */,
+				C2870C0628D34D86009C337C /* PhoneAttributes.swift */,
+				C2870C0028D34D2F009C337C /* PhoneViews.swift */,
+				C2D1252F28D7533400DEBF6B /* PhoneWidget.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		C2870BF828D34BF0009C337C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2870BDA28D33A22009C337C /* Island.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2870BF928D34C19009C337C /* Areas */ = {
+			isa = PBXGroup;
+			children = (
+				C2870BFA28D34C23009C337C /* AreasDetail.swift */,
+				C2870C0328D34D79009C337C /* AreasAttributes.swift */,
+				C2870BFD28D34C8C009C337C /* AreasViews.swift */,
+				C2D1252C28D752F100DEBF6B /* AreasWidget.swift */,
+			);
+			path = Areas;
+			sourceTree = "<group>";
+		};
+		C2CB4D1728D28807009D46AB = {
+			isa = PBXGroup;
+			children = (
+				C2CB4D2228D28807009D46AB /* Dynamic Islands */,
+				C2CB4D3E28D28BA0009D46AB /* Dynamic Islands Widget */,
+				C2CB4D3928D28BA0009D46AB /* Frameworks */,
+				C2CB4D2128D28807009D46AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2CB4D2128D28807009D46AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB4D2028D28807009D46AB /* Dynamic Islands.app */,
+				C2CB4D3828D28BA0009D46AB /* Dynamic Islands WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2CB4D2228D28807009D46AB /* Dynamic Islands */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB4D3328D289E7009D46AB /* Dynamic-Islands-Info.plist */,
+				C2CB4D2328D28807009D46AB /* Dynamic_IslandsApp.swift */,
+				C2CB4D2528D28807009D46AB /* ContentView.swift */,
+				C2AD4F5428DC508700B00AB3 /* LiveActivityManager.swift */,
+				C2870BF828D34BF0009C337C /* Model */,
+				C2870BE528D344A9009C337C /* Islands */,
+				C2CB4D2728D28808009D46AB /* Assets.xcassets */,
+				C2CB4D2928D28808009D46AB /* Preview Content */,
+			);
+			path = "Dynamic Islands";
+			sourceTree = "<group>";
+		};
+		C2CB4D2928D28808009D46AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB4D2A28D28808009D46AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2CB4D3928D28BA0009D46AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB4D3A28D28BA0009D46AB /* WidgetKit.framework */,
+				C2CB4D3C28D28BA0009D46AB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2CB4D3E28D28BA0009D46AB /* Dynamic Islands Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB4D3F28D28BA0009D46AB /* Dynamic_Islands_Widget.swift */,
+				C2CB4D4128D28BA0009D46AB /* Dynamic_Islands_Widget.intentdefinition */,
+				C2CB4D4228D28BA1009D46AB /* Assets.xcassets */,
+				C2CB4D4428D28BA1009D46AB /* Info.plist */,
+			);
+			path = "Dynamic Islands Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2CB4D1F28D28807009D46AB /* Dynamic Islands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CB4D2E28D28808009D46AB /* Build configuration list for PBXNativeTarget "Dynamic Islands" */;
+			buildPhases = (
+				C2CB4D1C28D28807009D46AB /* Sources */,
+				C2CB4D1D28D28807009D46AB /* Frameworks */,
+				C2CB4D1E28D28807009D46AB /* Resources */,
+				C2CB4D4D28D28BA1009D46AB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2CB4D4828D28BA1009D46AB /* PBXTargetDependency */,
+			);
+			name = "Dynamic Islands";
+			packageProductDependencies = (
+				C2870BDE28D340E6009C337C /* Inject */,
+			);
+			productName = "Dynamic Islands";
+			productReference = C2CB4D2028D28807009D46AB /* Dynamic Islands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2CB4D3728D28BA0009D46AB /* Dynamic Islands WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CB4D4A28D28BA1009D46AB /* Build configuration list for PBXNativeTarget "Dynamic Islands WidgetExtension" */;
+			buildPhases = (
+				C2CB4D3428D28BA0009D46AB /* Sources */,
+				C2CB4D3528D28BA0009D46AB /* Frameworks */,
+				C2CB4D3628D28BA0009D46AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Islands WidgetExtension";
+			packageProductDependencies = (
+				C2870BE328D343F6009C337C /* Inject */,
+			);
+			productName = "Dynamic Islands WidgetExtension";
+			productReference = C2CB4D3828D28BA0009D46AB /* Dynamic Islands WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2CB4D1828D28807009D46AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C2CB4D1F28D28807009D46AB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C2CB4D3728D28BA0009D46AB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C2CB4D1B28D28807009D46AB /* Build configuration list for PBXProject "Dynamic Islands" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2CB4D1728D28807009D46AB;
+			packageReferences = (
+				C2870BDD28D340E6009C337C /* XCRemoteSwiftPackageReference "Inject" */,
+			);
+			productRefGroup = C2CB4D2128D28807009D46AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2CB4D1F28D28807009D46AB /* Dynamic Islands */,
+				C2CB4D3728D28BA0009D46AB /* Dynamic Islands WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2CB4D1E28D28807009D46AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CB4D2B28D28808009D46AB /* Preview Assets.xcassets in Resources */,
+				C2CB4D2828D28808009D46AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CB4D3628D28BA0009D46AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22A2F3728D9E0B5000385FA /* Assets.xcassets in Resources */,
+				C2CB4D4328D28BA1009D46AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2CB4D1C28D28807009D46AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2870C0428D34D79009C337C /* AreasAttributes.swift in Sources */,
+				C2870C0728D34D86009C337C /* PhoneAttributes.swift in Sources */,
+				C2CB4D4628D28BA1009D46AB /* Dynamic_Islands_Widget.intentdefinition in Sources */,
+				C2870C0128D34D2F009C337C /* PhoneViews.swift in Sources */,
+				C22A2F2F28D9DF38000385FA /* MusicAttributes.swift in Sources */,
+				C2CB4D2628D28807009D46AB /* ContentView.swift in Sources */,
+				C2AD4F5528DC508700B00AB3 /* LiveActivityManager.swift in Sources */,
+				C2870BFE28D34C8C009C337C /* AreasViews.swift in Sources */,
+				C22A2F3328D9DF38000385FA /* MusicWidget.swift in Sources */,
+				C2870BF428D345CD009C337C /* PhoneDetail.swift in Sources */,
+				C22A2F3528D9DF38000385FA /* MusicDetail.swift in Sources */,
+				C2D1252D28D752F100DEBF6B /* AreasWidget.swift in Sources */,
+				C2870BDB28D33A22009C337C /* Island.swift in Sources */,
+				C2D1253028D7533400DEBF6B /* PhoneWidget.swift in Sources */,
+				C2870BFB28D34C23009C337C /* AreasDetail.swift in Sources */,
+				C2CB4D2428D28807009D46AB /* Dynamic_IslandsApp.swift in Sources */,
+				C22A2F3128D9DF38000385FA /* MusicViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CB4D3428D28BA0009D46AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2870C0528D34D79009C337C /* AreasAttributes.swift in Sources */,
+				C2870C0828D34D86009C337C /* PhoneAttributes.swift in Sources */,
+				C2870BF628D34638009C337C /* Island.swift in Sources */,
+				C22A2F3228D9DF38000385FA /* MusicViews.swift in Sources */,
+				C22A2F3428D9DF38000385FA /* MusicWidget.swift in Sources */,
+				C2870C0228D34D2F009C337C /* PhoneViews.swift in Sources */,
+				C2870BFF28D34C8C009C337C /* AreasViews.swift in Sources */,
+				C22A2F3028D9DF38000385FA /* MusicAttributes.swift in Sources */,
+				C2D1253228D758E200DEBF6B /* PhoneDetail.swift in Sources */,
+				C2D1252E28D752F100DEBF6B /* AreasWidget.swift in Sources */,
+				C22A2F3628D9DF38000385FA /* MusicDetail.swift in Sources */,
+				C2D1253328D758E700DEBF6B /* AreasDetail.swift in Sources */,
+				C2CB4D4028D28BA0009D46AB /* Dynamic_Islands_Widget.swift in Sources */,
+				C2D1253128D7533400DEBF6B /* PhoneWidget.swift in Sources */,
+				C2CB4D4528D28BA1009D46AB /* Dynamic_Islands_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2CB4D4828D28BA1009D46AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2CB4D3728D28BA0009D46AB /* Dynamic Islands WidgetExtension */;
+			targetProxy = C2CB4D4728D28BA1009D46AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2CB4D2C28D28808009D46AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2CB4D2D28D28808009D46AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2CB4D2F28D28808009D46AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dynamic Islands/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dynamic-Islands-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Call";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.Dynamic-Islands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2CB4D3028D28808009D46AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dynamic Islands/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dynamic-Islands-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Call";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.Dynamic-Islands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C2CB4D4B28D28BA1009D46AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dynamic Islands Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dynamic Islands Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.Dynamic-Islands.Dynamic-Islands-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2CB4D4C28D28BA1009D46AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dynamic Islands Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dynamic Islands Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.Dynamic-Islands.Dynamic-Islands-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2CB4D1B28D28807009D46AB /* Build configuration list for PBXProject "Dynamic Islands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CB4D2C28D28808009D46AB /* Debug */,
+				C2CB4D2D28D28808009D46AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CB4D2E28D28808009D46AB /* Build configuration list for PBXNativeTarget "Dynamic Islands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CB4D2F28D28808009D46AB /* Debug */,
+				C2CB4D3028D28808009D46AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CB4D4A28D28BA1009D46AB /* Build configuration list for PBXNativeTarget "Dynamic Islands WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CB4D4B28D28BA1009D46AB /* Debug */,
+				C2CB4D4C28D28BA1009D46AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2870BDD28D340E6009C337C /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2870BDE28D340E6009C337C /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2870BDD28D340E6009C337C /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+		C2870BE328D343F6009C337C /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2870BDD28D340E6009C337C /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C2CB4D1828D28807009D46AB /* Project object */;
+}
